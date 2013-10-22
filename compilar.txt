@@ -1,0 +1,18 @@
+acceder 
+
+cd /media/sdb1/Redes/practica3/prueba4
+
+compilar
+ gcc -I./ serv_proxy.c -o serv_proxy
+
+
+./serv_proxy
+
+strace serv_proxy
+
+
+paginas
+
+http://it.aut.uah.es/antonio/ejemplos/eje1.html
+http://it.aut.uah.es/antonio/ejemplos/eje2.html
+http://it.aut.uah.es/antonio/ejemplos/eje3.html
